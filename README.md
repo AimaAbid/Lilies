@@ -56,7 +56,7 @@ Lilies is a MERN web application. Key features include:
 
 - **User Registration & Role Assignment**: Allows user registration with default roles, while admins can assign roles anytime
 - **Authentication**: Secure login using JWT, redirecting users to dashboards.
-- **Admin **: Admins can  see the list of all users and make other users admins too.
+- **Admin**: Admins can  see the list of all users and make other users admins too.
 - **User Dashboard**: Enables users to browse items, manage accounts, view order history, and complete the checkout process. 
 - **Guest Access**: Guests can browse items but must register to make purchases.
 - **Additional Pages**: Includes a Home page, Menu page, Order History, and Profile management.
