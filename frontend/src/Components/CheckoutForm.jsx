@@ -54,6 +54,7 @@ export default function CheckoutForm({ onCheckoutClose, backenditems }) {
 					X
 				</button>
 				<div>Checkout</div>
+				<p className="info">You dont need to type in any details, just click on make payment button</p>
 				<input type="text" placeholder="Card Number" />
 				<input type="text" placeholder="Exp Date" />
 				<input type="text" placeholder="CVV/CVV2" />
