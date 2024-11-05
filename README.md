@@ -32,7 +32,7 @@ Follow these steps to set up and run the project locally:
    Replace `"your_secret_key_here"` with any secure key of your choice. This key will be used for JWT or other sensitive operations.
 
 4. **Import Data into MongoDB**  
-   Import the `data.js` file located in the backend folder into your MongoDB Atlas database. This file contains  item data for the "items" collection.
+   Import the `data.js` file located in the backend folder into your MongoDB compass database. This file contains  item data for the "items" collection.
 
 5. **Run the Application**  
    - Start the backend server:
