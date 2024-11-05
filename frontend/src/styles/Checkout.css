@@ -1,0 +1,98 @@
+.checkout-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 50%;
+    /* width change here */
+    background-color: #FFFFFF;
+    ;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+
+}
+
+.checkout-popup-content {
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    position: relative;
+
+    padding: 20px;
+    /* use this to put spaces  */
+    left: 10px;
+    top: 20px;
+    right: 20px;
+    padding-bottom: 100px;
+}
+
+.checkout-close-button {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    background: none;
+    border: none;
+    font-size: 21px;
+    cursor: pointer;
+
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+
+.checkout-popup-content input {
+    width: 488px;
+    height: 71px;
+
+    border-radius: 5px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFFD4;
+    border: 1px solid #FBDDBB82;
+
+
+
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #00302E87;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+
+}
+
+.payment-btn {
+    margin-top: 20px;
+    width: 488px;
+    height: 60px;
+
+    background: #00302E;
+    ;
+
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: #F3C294;
+}
+
+.checkout-popup-content>div {
+    width: 84px;
+    height: 33px;
+
+
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 33px;
+
+
+}

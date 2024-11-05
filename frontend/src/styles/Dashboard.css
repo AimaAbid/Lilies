@@ -1,0 +1,109 @@
+.dashboard-main-container {
+
+    display: flex;
+    height: 100vh;
+
+
+
+}
+
+.dashboard-welcome-text {
+    width: 358px;
+    height: 33px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 33px;
+
+    color: #00302E;
+
+}
+
+.dashboard-main-content {
+    margin-left: 20%;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.dashboard-light-text {
+    width: 309px;
+    height: 33px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #000000B0;
+
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-profile-pic-style {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #FBDDBB;
+
+}
+
+.item-card-list {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.disperancy-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 33px;
+
+    color: #06E775;
+
+}
+
+.menu-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 100px;
+}
+
+.menu-container>p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #00302E;
+}
+
+.menu-container>:nth-child(2) {
+    width: 100%;
+    text-align: center;
+
+}
+
+.menu-container>:nth-child(3) {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.menu-container>:nth-child(4) {
+    width: 100%;
+    text-align: center;
+    color: #06E775;
+
+}

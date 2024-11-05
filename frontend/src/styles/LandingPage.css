@@ -1,0 +1,341 @@
+/* distance bw sections 200px */
+.container {
+    background-color: #00302E;
+
+}
+
+/* Order anytime section................................................................. */
+.order-anytime {
+    display: flex;
+
+}
+
+.order-anytime-text {
+    flex: 2;
+
+}
+
+.order-anytime-image {
+    margin-left: 100px;
+    flex: 2;
+    width: 400px;
+    height: 400px;
+    margin-top: 287px;
+    border-radius: 400px;
+}
+
+
+.order-anytime-heading {
+    width: 650px;
+    height: 167px;
+    margin-top: 361px;
+    margin-left: 98px;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77px;
+    text-align: left;
+    font-weight: 500;
+    color: #FFFFFF;
+    ;
+
+
+}
+
+.order-anytime-normal-text {
+    width: 609px;
+    height: 77px;
+    margin-top: 50px;
+    margin-left: 98px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFFBD;
+
+}
+
+.badges {
+    width: 282px;
+    height: 40px;
+    margin-left: 98px;
+    gap: 12px;
+}
+
+
+.yellow-500-text {
+    color: #E2B887;
+    font-weight: 500;
+
+
+}
+
+
+
+/* Special meals section....................................................................... */
+
+
+.special-meals-heading {
+
+    width: 463px;
+    height: 33px;
+    margin-top: 200px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #FFFFFFDE;
+    /* margin-left: 35%; */
+    margin-left: 410px;
+
+
+}
+
+.special-meals-normal-text {
+    width: 609px;
+    height: 77px;
+    margin-top: 50px;
+    margin-left: 344px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFFD4;
+
+}
+
+.container-three-dishes {
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.food-image {
+    width: 250px;
+    height: 250px;
+    margin-left: 131px;
+    border-radius: 400px;
+
+
+}
+
+.dishes-heading {
+    width: 177px;
+    height: 33px;
+    margin-top: 30px;
+    margin-left: 186px;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: #FBDDBB;
+    text-align: center;
+}
+
+.dishes-text {
+    width: 288px;
+    height: 66px;
+    margin-top: 10px;
+    margin-left: 132px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFFD4;
+
+}
+
+/* Get notified section.......................................... */
+
+.get-notified {
+    display: flex;
+    margin-top: 200px;
+}
+
+.get-notified-heading {
+    flex: 1;
+    width: 549px;
+    height: 33px;
+    margin-left: 128px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    color: #FBDDBB;
+
+
+}
+
+.get-notified-text {
+    flex: 1;
+    width: 531px;
+    height: 66px;
+    margin-top: 30px;
+    margin-left: 126px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFFF2;
+
+
+}
+
+.get-notified-input-group {
+    display: flex;
+}
+
+.get-notified-input {
+
+    display: flex;
+    top: 1837px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: center;
+    color: #B2B2B2;
+    width: 299px;
+    height: 51px;
+    margin-top: 63px;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    border: 1px solid #B3B3B3
+}
+
+.get-notified-btn {
+    width: 182px;
+    height: 51px;
+    margin-top: 63px;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.33px;
+    /* text-align: center; */
+    color: #00302E;
+    background-color: #FBDDBB;
+    margin-left: 5px;
+
+
+
+}
+
+/* Footer................................................... */
+.footer-container {
+    padding-top: 67px;
+
+    height: 393px;
+    margin-top: 200px;
+    opacity: 0px;
+    background: #0B0D17;
+
+
+}
+
+.footer-links {
+    display: flex;
+    margin-bottom: 60px;
+    padding-left: 165px;
+
+}
+
+.footer-col {
+    color: #FFFFFF;
+    flex: 1;
+}
+
+.footer-link-heading {
+    width: 255px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #F4F5F7;
+
+
+
+}
+
+.footer-link-text {
+    width: 255px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EEEFF4;
+    padding-top: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+
+.divider {
+    color: #ffffff;
+    opacity: 10%;
+
+}
+
+.footer-contact {
+
+
+    margin-top: 40px;
+    /* margin-left: 165px; */
+    display: flex;
+
+
+
+
+}
+
+.footer-text {
+    /* padding: 24px 0px 24px 0px; */
+    gap: 0px;
+    opacity: 0px;
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+    padding-left: 180px;
+    flex: 1;
+
+
+}
+
+.footer-social {
+    padding-left: 530px;
+    flex: 1;
+
+
+
+
+}
+
+
+.icon-footer-color {
+
+    display: flex;
+    margin-right: 100px;
+}
+
+.icon-footer-color div {
+    height: 50px;
+    width: 50px;
+
+
+
+}
+
+.icon-footer-color a {
+    color: #FFFFFF;
+}
+
+.icon-footer-color a:hover {
+    cursor: pointer;
+    color: #B2B2B2;
+}
